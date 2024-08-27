@@ -2,6 +2,7 @@ import React from 'react'
 import'./basic.css'
 import 'mdb-ui-kit/css/mdb.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import { Button } from 'bootstrap';
 const Basic = () => {
   return (
     <>
@@ -24,22 +25,51 @@ const Basic = () => {
 
 </a>
 </div>
+<div className='nav-links'>
+        <a href="#">Hire Experts</a>
+        <a href="#">Get Hired</a>
+        <a href="#">Why Choose Us</a>
+        <a href="#">Enterprise</a>
+      
+</div>
+
+<div className='search-bar'>
+  <select id="primary-service-dropdown" className='service-dropdown'>
+    <option value="">Select Service Category</option>
+    <option value="development-it">Development and IT</option>
+    <option value="ai-services">AI Services</option>
+    <option value="graphics-design">Graphics and Design</option>
+    <option value="writing-translation">Writing and Translation</option>
+    <option value="sales-marketing">Sales and Marketing</option>
+    <option value="finance">Finance</option>
+    <option value="admin-support">Admin and Customer Support</option>
+  </select> 
+</div>
+
 <div className='login-signup'>
 <a href="/login" className='login'>Log In</a>
 <a href="/signup" className='signup'>Sign Up</a>
 </div>
 </div>
 </nav>
-<h1 className='hh'>Hire best job</h1>
-<div className='btn'>
-    <button className='a'>Hire an Employee</button>
-    <button className='b'>Search in job</button>
-</div>
-      </div>
 
-      <div className='container2'>
-        <div className='world'>
-        <h2 data-testid="verticals-title" >World-Class Talent</h2>
+
+<div className='herosection'>
+    <div className='content1'>
+        <h1>Opportunities don't happen.<br />You create them.</h1>
+        <h2>Seize the moment, take action, and shape your freelancing future.</h2>
+        <button className="startbtn">Get Started Now</button>
+    </div >
+    <div className='image-container'>
+   <img src="\images\i6.png"  />
+</div>
+</div>
+
+
+</div>
+<div className='container2'>
+ <div className='world'>
+   <h2 data-testid="verticals-title" >World-Class Talent</h2>
      
      <p>When you’re good at what you do, it’s worth it to find others at your level. At Toptal, we represent the top 3% of freelance talent in business, design, and&nbsp;technology.</p>
     
