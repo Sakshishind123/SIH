@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    background-color: white; /* Background color for the page */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: #b8c7e4; /* Lighter shade of blue that complements the hover color */
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 8px;
+    
+}
+
+.grid-item:hover {
+    background-color: #0c2867;
+    cursor: pointer;
+    color: white;
+}
+
+
+.main {
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.para {
+    font-size: 16px;
+    
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
