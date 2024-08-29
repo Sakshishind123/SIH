@@ -1,0 +1,26 @@
+.worker, .hire {
+    background-color: bisque;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Improved box-shadow */
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center; 
+    border-radius: 5px;
+    width: 150px;
+    height: 150px; 
+    cursor: pointer; 
+    margin-left: 20px;
+    /* transition: background-color 0.3s, box-shadow 0.3s; */
+   
+    /* Flexbox properties to center text */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+  }
+  
+ 
+
+  .worker img , .hire img{
+
+height: 60px;
+width: 60px;
+}
