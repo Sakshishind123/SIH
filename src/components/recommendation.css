@@ -1,0 +1,98 @@
+/* General Body Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+}
+
+/* Navbar Styles */
+.recommendation-navbar {
+    background-color: hsl(211, 84%, 20%);
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.recommendation-navbar h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.recommendation-nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.recommendation-nav-links li {
+    margin: 0;
+}
+
+.recommendation-nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.recommendation-nav-links a:hover {
+    color: #ffdd57;
+}
+
+/* Course Container Styles */
+.recommendation-course-container {
+    padding: 30px 40px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation-course-category h2 {
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    border-bottom: 2px solid hsl(211, 74%, 25%);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.recommendation-course-category {
+    margin-bottom: 30px;
+}
+
+.recommendation-course-list {
+    list-style: none;
+    padding: 0;
+}
+
+.recommendation-course-item {
+    margin: 10px 0;
+}
+
+.recommendation-course-item a {
+    text-decoration: none;
+    color: #0a0b0d;
+    font-size: 18px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.recommendation-course-item a:hover {
+    color: #0a0909;
+    transform: scale(1.05);
+}
+
+.recommendation-btn {
+    padding: 10px 15px;
+    background-color: hsl(211, 74%, 25%);
+    color: white;
+    left: 90%;
+    position: relative;
+}

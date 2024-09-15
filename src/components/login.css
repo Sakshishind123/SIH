@@ -1,0 +1,193 @@
+/* Ensure the page takes up the full viewport height */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Full height for the main section */
+.vh-100 {
+    height: 100vh;
+}
+
+/* Container to center the content vertically and horizontally */
+.container-fluid.h-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Styling for the login section */
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Image styling */
+.img-fluid {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Form container styling */
+form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for input fields */
+.form-outline {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Social buttons styling */
+.btn-floating {
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Divider styling */
+.divider {
+    margin: 2rem 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Checkbox and link styling */
+.form-check-input {
+    margin-right: 0.5rem;
+}
+
+.link-danger {
+    color: #dc3545;
+}
+
+.link-danger:hover {
+    color: #c82333;
+}
+
+/* Footer styling */
+.bg-primary {
+    background-color: #007bff;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-white a {
+    color: #fff;
+}
+
+.text-white a:hover {
+    color: #f8f9fa;
+}
+
+
+.form-check-label{
+padding: 10px;
+}
+
+
+/* In login.css */
+.btn-primary.btn-lg {
+    margin-top: 1rem; /* Adjust this value as needed */
+  }
+  
+  /* In login.css */
+.container-fluid.h-custom {
+    padding: 2rem; /* Adjust this value as needed */
+  }
+  
+
+  /* In login.css */
+.form-outline.mb-4,
+.form-outline.mb-3 {
+  margin-bottom: 1rem; /* Adjust this value as needed */
+}
+
+
+/* In login.css */
+.text-center.text-lg-start.mt-4.pt-2 {
+    margin-top: 1.5rem; /* Adjust this value as needed */
+    padding-top: 1rem; /* Adjust this value as needed */
+  }
+  
+
+  /* In login.css */
+.btn.btn-primary.btn-floating {
+    margin: 0.5rem; /* Adjust this value as needed */
+  }
+  
+
+  /* In login.css */
+.row.d-flex.justify-content-center.align-items-center.h-100 {
+    margin-bottom: 2rem; /* Adjust this value as needed */
+  }
+  
+
+  /* login.css */
+
+/* Add space between "Remember me" and "Forgot password?" */
+.d-flex.justify-content-between.align-items-center {
+    margin-bottom: 1rem; /* Adds margin below this section */
+  }
+  
+  /* Style for the form-check and its label */
+  .form-check {
+    margin-bottom: 0.5rem; /* Adds space below the checkbox */
+  }
+  
+  /* Space for the "Forgot password?" link */
+  a.text-body {
+    margin-left: 1rem; /* Adds space to the left of the link */
+  }
+  
+  /* Add space between the form and the login button */
+  .text-center.text-lg-start.mt-4.pt-2 {
+    margin-top: 2rem; /* Increases the space above this section */
+  }
+  
+  /* Style for the registration link */
+  .small.fw-bold.mt-2.pt-1.mb-0 {
+    margin-top: 1rem; /* Adds space above the registration link */
+  }
+  
+  /* Style for the container around social login buttons */
+  .d-flex.flex-row.align-items-center.justify-content-center.justify-content-lg-start {
+    margin-bottom: 1rem; /* Adds space below the social login section */
+  }
+  
